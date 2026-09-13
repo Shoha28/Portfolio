@@ -34,5 +34,13 @@
       "title": "Bank",
       "description": "An interactive JS-based web project simulating a banking system's interface, built with HTML and Tailwind CSS."
     }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact",
+    "text": "Feel free to reach out if you'd like to connect.",
+    "cta": "Send me an email"
   }
 }

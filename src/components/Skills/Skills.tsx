@@ -15,6 +15,7 @@ const skills: string[] = [
   "Testing",
   "Git",
   "CI/CD",
+  "M365",
   "SQL",
   "PostgreSQL",
   "REST API",
