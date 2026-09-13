@@ -13,8 +13,13 @@ const skills: string[] = [
   "Data Analysis",
   "Web Scraping",
   "Testing",
-  "GitHub",
+  "Git",
   "CI/CD",
+  "SQL",
+  "PostgreSQL",
+  "REST API",
+  "Linux",
+  "Vite",
 ];
 
 export default function Skills() {
