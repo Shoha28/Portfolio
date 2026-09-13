@@ -10,5 +10,28 @@
   "about": {
     "title": "Über mich",
     "text": "Ursprünglich aus Usbekistan, Ich studiere Informatik an der LMU München, aktuell im 5. Semester. Ich arbeite als studentische Hilfskraft und baue Python-basierte Datenpipelines, außerdem entwickle ich gerne Nebenprojekte mit React und TypeScript."
+  },
+  "works": {
+    "title": "Projekte",
+    "dataResearch": {
+      "title": "GitHub Data Research",
+      "description": "Eine Python-Pipeline für ein Forschungsprojekt zur Untersuchung, wie KI-Tools die Produktivität von Entwicklern beeinflussen. Sie sammelt und organisiert GitHub-Nutzer- und Repository-Daten (Beitragsaktivität, Commit-/Issue-Details, Abhängigkeitsgraphen) über die GitHub-API, mit einem eigens entwickelten Algorithmus zur Verwaltung von Rate-Limits."
+    },
+    "danceData": {
+      "title": "Dance Data Analysis",
+      "description": "Statistische Analyse von Tanzwettbewerbs-Wertungen, bei der Fixed-Effects-Regressionsmodelle von Stata nach Python portiert wurden, um zu untersuchen, wie Wertungsverzerrungen und Partnereffekte die Wettbewerbsergebnisse beeinflussen."
+    },
+    "probly": {
+      "title": "Probly",
+      "description": "Mitgewirkt an einem Python-Paket zur Unsicherheitsquantifizierung im maschinellen Lernen und Tests dafür geschrieben; das Paket wandelt Standard-neuronale-Netze in unsicherheitsbewusste Modelle um, sampelt prädiktive Verteilungen und quantifiziert Unsicherheit für Aufgaben wie Out-of-Distribution-Erkennung. Im Team an Modellkalibrierung und Testabdeckung gearbeitet."
+    },
+    "manage": {
+      "title": "Manage",
+      "description": "Ein früheres JavaScript-Projekt mit HTML und CSS."
+    },
+    "bank": {
+      "title": "Bank",
+      "description": "Ein interaktives JS-basiertes Webprojekt, das die Oberfläche eines Banksystems simuliert, gebaut mit HTML und Tailwind CSS."
+    }
   }
 }

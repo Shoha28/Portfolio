@@ -13,21 +13,25 @@
   },
   "works": {
     "title": "Works",
-    "project1": {
-      "title": "Project Name",
-      "description": "Short description here."
+    "dataResearch": {
+      "title": "GitHub Data Research",
+      "description": "A Python pipeline built for a research project studying how AI tools affect developer productivity, collecting and organizing GitHub user and repository data (contributor activity, commit/issue details, and dependency graphs) via the GitHub API, with a custom algorithm to manage rate limits."
     },
-    "project2": {
-      "title": "Project Name",
-      "description": "Short description here."
+    "danceData": {
+      "title": "Dance Data Analysis",
+      "description": "Statistical analysis of dance competition scoring, porting fixed-effects regression models from Stata to Python to study how scoring bias and partner effects shape competition outcomes"
     },
-    "project3": {
-      "title": "Project Name",
-      "description": "Short description here."
+    "probly": {
+      "title": "Probly",
+      "description": "Contributed to and wrote tests for a Python package for uncertainty quantification in machine learning, transforming standard neural networks into uncertainty-aware models, sampling predictive distributions, and quantifying  uncertainty for tasks like out-of-distribution detection. Worked on model calibration and test coverage as part of a team."
     },
-    "project4": {
-      "title": "Project Name",
-      "description": "Short description here."
+    "manage": {
+      "title": "Manage",
+      "description": "An earlier JavaScript-based project built with HTML and CSS."
+    },
+    "bank": {
+      "title": "Bank",
+      "description": "An interactive JS-based web project simulating a banking system's interface, built with HTML and Tailwind CSS."
     }
   }
 }

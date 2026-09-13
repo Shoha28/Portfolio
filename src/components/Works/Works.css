@@ -1,0 +1,135 @@
+.works-container {
+  display: flex;
+  justify-content: center;
+  padding: calc(var(--space-lg) * 1.5) var(--space-md);
+  background-color: var(--bg-primary);
+}
+
+.works-content {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.works-title {
+  font-family: var(--font-sans);
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-lg) 0;
+  text-align: center;
+}
+
+.works-slider-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.works-slider {
+  display: flex;
+  gap: var(--space-md);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.5rem 0.25rem 1rem;
+  scrollbar-width: none;
+}
+
+.works-slider::-webkit-scrollbar {
+  display: none;
+}
+
+.project-card {
+  flex: 0 0 300px;
+  scroll-snap-align: start;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.project-card:hover {
+  border-color: var(--accent-primary);
+  transform: translateY(-3px);
+}
+
+.project-body {
+  padding: var(--space-md);
+}
+
+.project-title {
+  font-family: var(--font-sans);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem 0;
+}
+
+.project-description {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin: 0 0 var(--space-md) 0;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: var(--space-md);
+}
+
+.project-tag {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-primary);
+  background-color: rgba(91, 141, 239, 0.12);
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+}
+
+.project-link {
+  color: var(--text-secondary);
+  display: inline-flex;
+  transition: color 0.2s ease;
+}
+
+.project-link:hover {
+  color: var(--accent-primary);
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.slider-arrow:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
+
+.slider-arrow-left {
+  left: -1.1rem;
+}
+
+.slider-arrow-right {
+  right: -1.1rem;
+}
