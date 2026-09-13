@@ -57,3 +57,50 @@
   -webkit-mask-position: center;
   mask-position: center;
 }
+
+.about-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: var(--space-md);
+}
+
+.about-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.about-btn-primary {
+  background-color: var(--accent-primary);
+  color: #ffffff;
+  border: 1px solid var(--accent-primary);
+}
+
+.about-btn-primary:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.about-btn-secondary {
+  background-color: transparent;
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+}
+
+.about-btn-secondary:hover {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+}
