@@ -1,0 +1,33 @@
+/* Header.css */
+.header-container {
+  display: flex;
+  justify-content: center;
+  padding: calc(var(--space-lg) * 3) var(--space-md) calc(var(--space-lg) * 2);
+}
+
+.header-content {
+  max-width: 640px;
+  text-align: left;
+}
+
+.header-name {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.02em;
+}
+
+.header-role {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-lg);
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.header-role::before {
+  content: "";
+}

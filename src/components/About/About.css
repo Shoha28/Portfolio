@@ -1,0 +1,41 @@
+/* About.css */
+.about-container {
+  display: flex;
+  justify-content: center;
+  padding: var(--space-lg) var(--space-md);
+  background-color: var(--bg-secondary);
+}
+
+.about-content {
+  max-width: 640px;
+}
+
+.about-title {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0 0 var(--space-md) 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.about-title::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.15em;
+  bottom: 0.15em;
+  width: 3px;
+  background-color: var(--accent-primary);
+  border-radius: 2px;
+}
+
+.about-text {
+  font-family: var(--font-sans);
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin: 0;
+}
