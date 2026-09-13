@@ -1,18 +1,35 @@
-:root {
+:root,
+[data-theme="dark"] {
   --bg-primary: #0f1115;
-  --bg-secondary: #161923;
-  --space-md: 1.5rem;
-  --space-lg: 2.5rem;
+  --bg-secondary: #161b28;
   --text-primary: #e8e9ed;
   --text-secondary: #9ca3af;
   --accent-primary: #5b8def;
+  --border-subtle: rgba(255, 255, 255, 0.06);
+
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-size-base: 1.125rem;
   --font-size-lg: 1.75rem;
   --font-size-xl: 2.5rem;
+  --navbar-bg: rgba(15, 17, 21, 0.85);
+}
+
+[data-theme="light"] {
+  --bg-primary: #ffffff;
+  --bg-secondary: #e4e7ec;
+  --text-primary: #14161a;
+  --text-secondary: #52586b;
+  --accent-primary: #3b6fd6;
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --navbar-bg: rgba(247, 248, 250, 0.85);
 }
 
 body {
   background-color: var(--bg-primary);
   margin: 0;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
 }

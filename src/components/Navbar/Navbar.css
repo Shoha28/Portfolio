@@ -1,14 +1,16 @@
-/* Navbar.css */
 .navbar {
   position: sticky;
   top: 0;
   z-index: 100;
   display: flex;
   justify-content: center;
-  padding: var(--space-md) 0;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: var(--space-md) var(--space-lg);
   background-color: rgba(15, 17, 21, 0.85);
   backdrop-filter: blur(8px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border-subtle);
+  background-color: var(--bg-secondary);
 }
 
 .navbar-links {
@@ -44,4 +46,48 @@
 
 .nav-link:hover::after {
   width: 100%;
+}
+
+.navbar-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lang-toggle,
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--border-subtle);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  font-family: var(--font-sans);
+  cursor: pointer;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.lang-toggle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.7rem;
+  letter-spacing: 0.02em;
+}
+
+.theme-toggle {
+  font-size: 1rem;
+  width: 2.1rem;
+  height: 2.1rem;
+  padding: 0;
+}
+
+.lang-toggle:hover,
+.theme-toggle:hover {
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+  background-color: var(--bg-secondary);
 }
