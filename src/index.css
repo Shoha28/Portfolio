@@ -1,0 +1,18 @@
+:root {
+  --bg-primary: #0f1115;
+  --bg-secondary: #161923;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --text-primary: #e8e9ed;
+  --text-secondary: #9ca3af;
+  --accent-primary: #5b8def;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-size-base: 1.125rem;
+  --font-size-lg: 1.75rem;
+  --font-size-xl: 2.5rem;
+}
+
+body {
+  background-color: var(--bg-primary);
+  margin: 0;
+}
