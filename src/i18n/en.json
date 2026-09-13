@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "about": "About",
+    "works": "Works",
+    "contact": "Contact"
+  },
+  "header": {
+    "role": "Computer science student at LMU, 5th semester"
+  }
+}

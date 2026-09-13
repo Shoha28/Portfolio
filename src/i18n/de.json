@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "works": "Projekte",
+    "contact": "Kontakt"
+  },
+  "header": {
+    "role": "Informatikstudent an der LMU, 5. Semester"
+  }
+}
