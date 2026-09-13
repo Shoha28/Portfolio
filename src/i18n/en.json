@@ -9,6 +9,25 @@
   },
   "about": {
     "title": "About",
-    "text": "I'm a computer science student at LMU Munich, currently in my 5th semester. I work as a research assistant, building Python-based data pipelines, and enjoy building side projects with React and TypeScript."
+    "text": "Originally from Uzbekistan, I'm a computer science student at LMU Munich, currently in my 5th semester. I work as a research assistant, building Python-based data pipelines, and enjoy building side projects with React and TypeScript."
+  },
+  "works": {
+    "title": "Works",
+    "project1": {
+      "title": "Project Name",
+      "description": "Short description here."
+    },
+    "project2": {
+      "title": "Project Name",
+      "description": "Short description here."
+    },
+    "project3": {
+      "title": "Project Name",
+      "description": "Short description here."
+    },
+    "project4": {
+      "title": "Project Name",
+      "description": "Short description here."
+    }
   }
 }

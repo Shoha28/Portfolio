@@ -6,8 +6,17 @@
 }
 
 .about-content {
-  max-width: 720px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: calc(var(--space-lg) * 1.6);
+  max-width: 900px;
+  width: 100%;
+}
+
+.about-text-col {
+  flex: 1;
+  text-align: left;
 }
 
 .about-title {
@@ -25,4 +34,26 @@
   color: var(--text-secondary);
   line-height: 1.7;
   margin: 0;
+}
+
+.about-map-col {
+  flex-shrink: 0;
+}
+
+.about-map-wrapper {
+  width: 320px;
+  height: 320px;
+  filter: drop-shadow(0 0 24px rgba(91, 141, 239, 0.6));
+}
+
+.about-map {
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-primary);
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
 }
